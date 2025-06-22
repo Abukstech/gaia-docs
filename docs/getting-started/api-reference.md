@@ -43,7 +43,7 @@ curl -X POST https://node_id.gaia.domains/v1/chat/completions \
 {"id":"chatcmpl-bcfeebe0-5372-42c0-ac92-0615213e1c97","object":"chat.completion","created":1716380086,"model":"Llama-3-8B-Instruct-262k-Q5_K_M","choices":[{"index":0,"message":{"role":"assistant","content":"Paris."},"finish_reason":"stop"}],"usage":{"prompt_tokens":61,"completion_tokens":4,"total_tokens":65}}%  
 ```
 
-#### streaming
+#### Streaming
 
 Add `"stream":true` in your request to make the API send back partial responses as the LLM generates its answer. 
 
